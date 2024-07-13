@@ -1,0 +1,26 @@
+*{
+  padding:0;
+  margin: 0;
+}
+.image-box{
+  height: 900px;;
+  width: 1140px;
+  position: relative;
+  background-image: url(./image\ 2.png);
+  background-image: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-box ::before{
+  position: absolute;
+  content: "";
+  inset: 0;
+  background-color: white;
+  opacity: 70%;
+}
+h1{
+  z-index: 1;
+  color: black;
+}
